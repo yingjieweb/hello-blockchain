@@ -5,7 +5,7 @@ layout: home
 hero:
   name: "Hello Blockchain"
   text: "A blockchain learning website"
-  tagline: My great project tagline
+  tagline: Here we go! 🚀
   actions:
     - theme: brand
       text: Markdown Examples
@@ -22,4 +22,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
