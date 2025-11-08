@@ -21,6 +21,17 @@ export default defineConfig({
               {
                 text: "Blockchain Application and Technology",
                 link: "/bta/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "What is Blockchain?",
+                    link: "/bta/index.md",
+                  },
+                  {
+                    text: "Why is Blockchain important?",
+                    link: "/bta/why-is-blockchain-important",
+                  },
+                ],
               },
               { text: "Markdown Examples", link: "/markdown-examples" },
               { text: "Runtime API Examples", link: "/api-examples" },
@@ -42,7 +53,21 @@ export default defineConfig({
           {
             text: "理论部分",
             items: [
-              { text: "区块链应用与技术", link: "/zh/bta/" },
+              {
+                text: "区块链应用与技术",
+                link: "/zh/bta/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "区块链是什么？",
+                    link: "/zh/bta/index.md",
+                  },
+                  {
+                    text: "为什么区块链很重要？",
+                    link: "/zh/bta/why-is-blockchain-important",
+                  },
+                ],
+              },
               { text: "Markdown 示例", link: "/markdown-examples" },
               { text: "API 示例", link: "/api-examples" },
             ],
