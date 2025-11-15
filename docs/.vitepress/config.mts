@@ -24,7 +24,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   {
-                    text: "What is Blockchain?",
+                    text: "Blockchain Introduction",
                     link: "/bta/index.md",
                   },
                   {
@@ -59,7 +59,7 @@ export default defineConfig({
                 collapsed: true,
                 items: [
                   {
-                    text: "区块链是什么？",
+                    text: "区块链简介",
                     link: "/zh/bta/index.md",
                   },
                   {
