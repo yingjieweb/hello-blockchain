@@ -13,6 +13,7 @@ export default defineConfig({
         nav: [
           { text: "Home", link: "/" },
           { text: "BTA", link: "/bta/" },
+          { text: "Solidity", link: "/solidity/" },
         ],
         sidebar: [
           {
@@ -46,6 +47,22 @@ export default defineConfig({
               },
             ],
           },
+          {
+            text: "Practice section",
+            items: [
+              {
+                text: "Solidity",
+                link: "/solidity/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Solidity Introduction",
+                    link: "/solidity/index.md",
+                  },
+                ],
+              },
+            ],
+          },
         ],
       },
     },
@@ -60,7 +77,7 @@ export default defineConfig({
         ],
         sidebar: [
           {
-            text: "理论部分",
+            text: "理论篇",
             items: [
               {
                 text: "区块链应用与技术",
@@ -85,6 +102,22 @@ export default defineConfig({
                   {
                     text: "什么是比特币？",
                     link: "/zh/bitcoin/index.md",
+                  },
+                ],
+              },
+            ],
+          },
+          {
+            text: "实践篇",
+            items: [
+              {
+                text: "Solidity",
+                link: "/zh/solidity/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "Solidity 简介",
+                    link: "/zh/solidity/index.md",
                   },
                 ],
               },
