@@ -8,11 +8,11 @@ hero:
   tagline: Here we go! 🚀
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
+      text: Theoretical Section
+      link: /bta/
     - theme: alt
-      text: API Examples
-      link: /api-examples
+      text: Practice section
+      link: /solidity
 
 features:
   - title: Feature A

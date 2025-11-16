@@ -8,11 +8,11 @@ hero:
   tagline: 一起出发！🚀
   actions:
     - theme: brand
-      text: Markdown 示例
-      link: /markdown-examples
+      text: 理论篇
+      link: /zh/bta/
     - theme: alt
-      text: API 示例
-      link: /api-examples
+      text: 实践篇
+      link: /zh/solidity/
 
 features:
   - title: 特性 A
