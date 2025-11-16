@@ -28,8 +28,8 @@ export default defineConfig({
                     link: "/bta/index.md",
                   },
                   {
-                    text: "Why is Blockchain important?",
-                    link: "/bta/why-is-blockchain-important",
+                    text: "Reference",
+                    link: "/bta/reference.md",
                   },
                 ],
               },
@@ -63,8 +63,8 @@ export default defineConfig({
                     link: "/zh/bta/index.md",
                   },
                   {
-                    text: "为什么区块链很重要？",
-                    link: "/zh/bta/why-is-blockchain-important",
+                    text: "参考资料",
+                    link: "/zh/bta/reference.md",
                   },
                 ],
               },
