@@ -33,6 +33,17 @@ export default defineConfig({
                   },
                 ],
               },
+              {
+                text: "Bitcoin: A Peer-to-Peer Electronic Cash System",
+                link: "/bitcoin/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "What is Bitcoin?",
+                    link: "/bitcoin/index.md",
+                  },
+                ],
+              },
             ],
           },
         ],
@@ -63,6 +74,17 @@ export default defineConfig({
                   {
                     text: "参考资料",
                     link: "/zh/bta/reference.md",
+                  },
+                ],
+              },
+              {
+                text: "比特币：一种点对点的电子现金系统",
+                link: "/zh/bitcoin/",
+                collapsed: true,
+                items: [
+                  {
+                    text: "什么是比特币？",
+                    link: "/zh/bitcoin/index.md",
                   },
                 ],
               },
